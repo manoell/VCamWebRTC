@@ -1,0 +1,9 @@
+Package: vcam.webrtc
+Name: VCamWebRTC
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: VCamWebRTC
+Maintainer: Axelrod
+Author: Axelrod
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
