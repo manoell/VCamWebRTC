@@ -8,6 +8,6 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = VCamWebRTC
 
 VCamWebRTC_FILES = Tweak.x
-VCamWebRTC_CFLAGS = -fobjc-arc
+VCamWebRTC_CFLAGS = -fobjc-arc -Wno-deprecated-declarations
 
 include $(THEOS_MAKE_PATH)/tweak.mk
